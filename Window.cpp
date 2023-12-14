@@ -82,8 +82,8 @@ Window::Window(int n, int m) {
 Window::~Window() = default;
 
 void Window::click_no_bomb() {
-    int x, y = 0;
-    no_bomb.set_label(std::to_string(game_table[x][y]));
+    //int x, y = 0;
+    //no_bomb.set_label(std::to_string(game_table[x][y]));
     std::cout << "click!\n";
 }
 
