@@ -4,13 +4,13 @@
 
 
 int main(int argc, char *argv[]) {
-    int n, m;
-    std::cout << "Enter the size of the field:";
-    std::cin >> n >> m;
+//    int n, m;
+//    std::cout << "Enter the size of the field:";
+//    std::cin >> n >> m;
 
     auto app = Gtk::Application::create(argc, argv);
 
-    Window window(n, m);
+    Window window(6, 6);
 
     return app->run(window);
 }
